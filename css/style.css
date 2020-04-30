@@ -1,0 +1,146 @@
+* {
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #2a3252;
+  background-image: url(../img/1446d116d36228d0969d6953e552352a.jpg);
+}
+
+.main-container {
+  width: 400px;
+  /* height: 100%; */
+  /* background-color: #fff; */
+  background-image: url(../img/996082-vertical-weather-wallpapers-1920x1200.jpg);
+
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+
+.app-title {
+  /* width: 300px;
+  height: 50px; */
+  border-radius: 10px 10px 0 0;
+}
+
+.app-title p {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 1.4em;
+  color: #ffffff;
+}
+
+.search-container {
+  text-align: center;
+  padding: 15px;
+  /* margin: 0 auto;
+  font-size: 1.4em;
+  color: #ffffff; */
+}
+
+.search-box {
+  border-radius: 5px;
+  line-height: 1.5rem;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border-bottom: 3px solid #a12b36;
+}
+
+.search-box:focus {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.date p {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 1em;
+  color: #fffb00;
+}
+
+.notifications {
+  background-color: #f8d7da;
+  display: none;
+}
+
+.notifications p {
+  color: #721c24;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.weather-container {
+  /* width: 300px;
+  height: 260px; */
+  /* background-color: rgba(255, 255, 255, 1); */
+}
+
+.weather-icon {
+  /* width: 300px;
+  height: 128px; */
+}
+
+.weather-icon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.temp-value {
+  /* width: 300px;
+  height: 60px; */
+}
+
+.temp-value p {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-size: 4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* .temp-value p:hover {
+} */
+
+.temp-value span {
+  color: #ffffff;
+  font-size: 0.5em;
+}
+
+/* .temperature-description {
+} */
+
+.temp-description p {
+  padding: 8px;
+  padding-bottom: 5px;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* .location {
+} */
+
+.location p {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+@media (max-width: 422px) {
+  .main-container {
+    width: 325px;
+  }
+}
